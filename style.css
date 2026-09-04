@@ -1,0 +1,54 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background: url('../img/laundry-bg.jpg') no-repeat center center/cover;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 83, 122, 0.7); /* Dark Blue overlay from your palette */
+  z-index: 1;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2; /* para nasa ibabaw ng overlay yung text */
+  color: #fff; /* white para luminaw sa dark overlay */
+}
+
+.hero h1 {
+  color: #FFF35B; /* standout Yellow title */
+  font-weight: 700;
+}
+
+.hero p {
+  color: #f8f9fa; /* softer white para hindi harsh */
+}
+
+.hero .btn-primary {
+  background-color: #A8E8F9;
+  border: none;
+  color: #00537A;
+  font-weight: bold;
+}
+
+.hero .btn-primary:hover {
+  background-color: #91d9eb;
+  color: #00394f;
+}
+
+.hero .btn-warning {
+  background-color: #FFF35B;
+  border: none;
+  color: #00537A;
+  font-weight: bold;
+}
+
+.hero .btn-warning:hover {
+  background-color: #e6dd4f;
+  color: #00394f;
+}
