@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 100vh;
+  background-color: #0d6efd;
+  color: white;
+  padding: 20px 10px;
+}
+
+.sidebar-header {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-link {
+  color: white;
+  font-size: 15px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin: 5px 0;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+  background-color: #ffc107;
+  color: black;
+  font-weight: bold;
+}
+
+.main-content {
+  margin-left: 240px;
+  padding: 0;
+}
+
+.navbar {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+/* Buttons inside nav card */
+.card .btn {
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.card .btn:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
